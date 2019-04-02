@@ -7,7 +7,7 @@ Website: http://oxcakmak.com/
 Country: Turkey [TR]
 */
 require_once('config.php');
-
+require_once('class.phpmailer.php');
 $mail = new PHPMailer();
 $mail->Host = $config["mail"]["type"].".".$config['mail']['site'];
 $mail->SMTPAuth = true;
