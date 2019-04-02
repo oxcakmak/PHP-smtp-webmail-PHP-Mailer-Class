@@ -28,9 +28,16 @@ $mail->AddAddress($user_email);
 */
 $mail->AddAddress($user_email); //Change
 $mail->From = $config['mail']['sender'];
-$mail->FromName = $lstr['ls_label_title_mail_password_reset_request'];
+/*
+[Email Title]
+*/
+$mail->FromName = "Account Activation";
 $mail->CharSet = $config['mail']['charset'];
-$mail->Subject = $config['meta']['stuck'];
+/*
+[Subject title]
+Ex: Project Name
+*/
+$mail->Subject = "Github";
 /*
 [Your message template]
 */
