@@ -10,6 +10,23 @@ Everyone's time should be valuable, so please consider donating.
 
 [https://buymeacoffee.com/oxcakmak](https://buymeacoffee.com/oxcakmak)
 
+## Table of Contents
+- [Features](#features)
+- [Requirements](#requirements)
+- [Basic Usage](#basic-usage)
+- [Advanced Features](#advanced-features)
+  - [Adding Attachments](#adding-attachments)
+  - [Adding CC and BCC](#adding-cc-and-bcc)
+  - [Adding Embedded Images](#adding-embedded-images)
+  - [DKIM Signing](#dkim-signing)
+- [Error Handling](#error-handling)
+- [Debugging](#debugging)
+- [Security Considerations](#security-considerations)
+- [Known Limitations](#known-limitations)
+- [Troubleshooting](#troubleshooting)
+- [License](#license)
+- [Credits](#credits)
+
 ## Features
 
 - SMTP email sending
