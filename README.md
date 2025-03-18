@@ -70,7 +70,6 @@ $mail->CharSet = 'utf-8';
 
 // Set email content
 $mail->IsHTML(true);
-
 $mail->From = 'sender@example.com';
 $mail->FromName = 'Sender Name';
 $mail->AddAddress('recipient@example.com');
