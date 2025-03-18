@@ -66,15 +66,17 @@ $mail->SMTPSecure = 'ssl'; // or 'tls'
 $mail->Port = 465; // or 587 for TLS
 $mail->Username = 'your_username';
 $mail->Password = 'your_password';
+$mail->CharSet = 'utf-8';
 
 // Set email content
 $mail->IsHTML(true);
-$mail->CharSet = 'utf-8';
+
 $mail->From = 'sender@example.com';
 $mail->FromName = 'Sender Name';
 $mail->AddAddress('recipient@example.com');
 $mail->Subject = 'Email Subject';
 $mail->Body = 'HTML message body';
+// not necessary actually
 $mail->AltBody = 'Plain text message body';
 
 // Send email
